@@ -1,0 +1,174 @@
+.frame {
+  color: white;
+  background: linear-gradient(132deg, rgb(255, 255, 255) 0%, rgb(231, 230, 230) 100%);
+  font-family: "helvetica neue";
+  width: 100%;
+  height: 20rem;
+  padding: 10px 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  align-content: center;
+  flex-wrap: wrap;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+.timeRow {
+  text-align: center;
+  display: flex;
+  width: 100%;
+  height: 200px;
+  background: linear-gradient(132deg, rgba(19,19,55,1) 0%, rgb(7, 7, 63) 100%);
+  padding: 10px 40px;
+  border-radius: 5px;
+  box-shadow: rgb(0 0 0 / 25%) 0px 54px 55px, rgb(0 0 0 / 12%) 0px -12px 30px, rgb(0 0 0 / 12%) 0px 4px 6px, rgb(0 0 0 / 17%) 0px 12px 13px, rgb(0 0 0 / 9%) 0px -3px 5px;
+  flex-direction: row;
+  align-content: center;
+}
+
+.timeCol {
+  padding: 10px 0;
+  margin: 0 2px;
+}
+
+.timeCol2 {
+  padding: 10px 0;
+  max-width: 50px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.tLabel{
+  font-size: 15px;
+  color: #fff;
+  padding: 0;
+  margin: 0;
+  text-shadow: 0px 2px 4px rgb(0, 0, 0);
+}
+
+.tTime{
+  background-color:rgba(255, 255, 255, 0.5);
+  /* width: 150px; */
+  /* border: 1px solid #fff ; */
+  border-radius: 5px;
+  padding: 0;
+  margin: 0 5px;
+  height: 160px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.tTime>h3{
+  font-size: 90px;
+  text-shadow: 0px 2px 4px rgb(0, 0, 0);
+  transition: 500ms;
+}
+
+.tTimeColon{
+  padding: 0;
+  margin: 0 5px;
+}
+
+.tTimeColon>h3{
+  font-size: 60px;
+  text-shadow: 0px 2px 4px rgb(0, 0, 0);
+}
+
+.date {
+  color: rgb(19, 19, 55);
+  font-size: 50px;
+  letter-spacing: 1px;
+  margin: 0;
+  text-align: center;
+  text-shadow: 0px 2px 4px rgba(0, 0, 0, 0.5);
+  text-transform: uppercase;
+}
+.date>p{
+  margin: 0;
+}
+
+.homeHeader{
+  padding: 0;
+  margin: 0;
+  font-size: 36px;
+}
+
+.logText{
+  padding: 0;
+  margin: 0;
+  font-size: 20px;
+  text-transform: uppercase;
+}
+
+
+@media screen and (max-width: 960px) {
+  .frame {
+    width: 100%;
+    height: 100%;
+    padding: 10px 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+    flex-wrap: wrap;
+  }
+  
+  .timeRow{
+    text-align: center;
+    width: 80%;
+    padding: 5px 10px;
+  }
+
+  
+.timeCol {
+  padding: 5px 0;
+  margin: 0;
+}
+
+.timeCol2 {
+  padding: 5px 0;
+  max-width: 50px;
+}
+
+
+.tLabel{
+  font-size: 10px;
+}
+
+.tTime{
+  margin: 0;
+}
+
+.tTime>h3{
+  font-size: 30px;
+  transition: 500ms;
+}
+
+.tTimeColon{
+  padding: 0;
+  margin: 0;
+}
+
+.tTimeColon>h3{
+  font-size: 28px;
+  text-shadow: 0px 2px 4px rgb(0, 0, 0);
+}
+
+.date {
+  font-size: 30px;
+  letter-spacing: 1px;
+}
+
+.date>p{
+  margin: 0;
+}
+
+
+
+}

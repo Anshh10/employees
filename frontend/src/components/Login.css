@@ -1,0 +1,111 @@
+
+  .has-error .form-control {
+    border-bottom: 1px solid red;
+  }
+
+  .has-error .help-block {
+    color:red; 
+    margin-bottom: 5px;}
+
+  .login-box {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 500px;
+    padding: 40px;
+    transform: translate(-50%, -50%);
+  background: linear-gradient(90deg, rgb(116, 2, 2, 1) 0%, rgb(148, 17, 17, 1) 100%);
+  box-sizing: border-box;
+    box-shadow: 0 15px 25px rgb(116, 2, 2, 1);
+    border-radius: 10px;
+  }
+
+  .login-box h2 {
+    padding: 0;
+    color: #fff;
+    text-align: center;
+  }
+
+    
+  .login-box .user-box {
+    position: relative;
+  }
+
+  .customLabel {
+    color: #fff;
+    pointer-events: none;
+    transition: .5s;
+    margin-bottom: 5px;
+    font-size: 24px;
+    margin-top: 15px;
+    font-weight: 400;
+
+  }
+
+  .customInput {
+    display: block;
+    width: 100%;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #fff;
+    background-color: transparent;
+    background-clip: padding-box;
+    border: none;
+    border-bottom: 2px solid #fff;
+    transition: none;
+    margin-bottom: 1.5em;
+}
+
+.customInput::placeholder{ 
+    color: rgb(184, 223, 134);
+    opacity: 1; 
+  }
+
+.user-box:focus{
+    border: none;
+}
+
+  .customInput:focus, .customInput:hover {
+    background: transparent;
+    color: #fff;
+    font-size: 18px;
+    outline: 0;
+    border-color: rgba(246,255,35,1);
+    box-shadow: none;
+    transition: 200ms;
+}
+
+
+@media screen and (max-width: 768px) { 
+  .login-box {
+    margin-top: 85px;
+    width: 300px;
+    padding: 40px 20px;
+  }
+
+  
+  .customLabel {
+    color: #fff;
+    pointer-events: none;
+    transition: .5s;
+    margin-bottom: 5px;
+    font-size: 20px;
+    margin-top: 15px;
+    font-weight: 400;
+
+  }
+
+  .customInput {
+    display: block;
+    width: 100%;
+    font-size: 15px;
+    line-height: 1;
+  } 
+
+  .customInput:focus {
+    font-size: 17px;
+  }
+
+
+}

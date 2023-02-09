@@ -1,0 +1,194 @@
+.responsePage {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+.letter{
+  width: 800px;
+}
+
+.fResponseBody {
+  margin-bottom: 100px;
+  padding: 0 20px;
+  width: 800px;
+  min-height: 1135px;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  border: 1px solid #000;
+  background-size: cover;
+}
+
+
+.letterBody{
+  padding: 20px 20px;
+  width: 100%;
+  text-align: justify;
+}
+
+.section2, .section3{
+  margin-top: 40px;
+}
+
+.section4{
+  margin-top: 30px;
+}
+
+.bordered-col{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  padding: 3px 0px;
+  border: 2px solid #000;
+}
+
+.bordered-mid-col{
+  padding: 3px 10px;
+  border-left: 2px solid #000;
+  border-right: 2px solid #000;
+}
+
+.bordered-row{
+  padding: 3px 0;
+  border: 2px solid #000;
+}
+
+.bordered-mid-row{
+  padding: 3px 0px;
+  border-left: 2px solid #000;
+  border-right: 2px solid #000;
+}
+
+.bordered-col>h3{
+  font-size: 36pt;
+  font-weight: 800;
+}
+
+.bordered-col>h4{
+  margin: auto;
+  font-size: 26pt;
+  font-weight: 800;
+}
+
+.boldText{
+  font-weight: 800;
+}
+
+.Hsingle-enter {
+  font-family: "Times New Roman";
+  font-size: 14pt;
+  margin-bottom: 0;
+  font-weight: 800;
+}
+
+.Hsingle-enter2 {
+  font-family: "Times New Roman";
+  font-size: 12pt;
+  margin-bottom: 0;
+  font-weight: 800;
+}
+
+.Tsingle-enter {
+  font-family: "Times New Roman";
+  font-size: 12pt;
+  margin-bottom: 0;
+}
+
+.Tsingle-enter-sm {
+  font-family: "Times New Roman";
+  font-size: 10pt;
+  margin-bottom: 0;
+}
+
+.Hsingle-enter-sm {
+  font-family: "Times New Roman";
+  font-size: 12pt;
+  text-align: center;
+  margin-bottom: 0;
+  font-weight: 600;
+}
+
+.Tdouble-enter {
+  font-family: "Times New Roman";
+  margin-top: 11px;
+  font-size: 12pt;
+  margin-bottom: 0;
+}
+
+.Tsign-enter {
+  font-family: "Times New Roman";
+  margin-top: 30px;
+  font-size: 12pt;
+  margin-bottom: 0;
+}
+
+.Hdouble-enter {
+  font-family: "Times New Roman";
+  margin: 16px auto;
+  font-size: 16pt;
+  color: #000;
+  font-weight: 600;
+}
+
+.H3double-enter {
+  font-family: "Times New Roman";
+  margin: 0;
+  margin-top: 14px;
+  font-size: 14pt;
+  color: #000;
+  font-weight: 600;
+}
+
+.Lsingle-enter li {
+  font-family: "Times New Roman";
+  font-size: 12pt;
+  margin-bottom: 0;
+}
+
+.Ldouble-enter li {
+  font-family: "Times New Roman";
+  font-size: 12pt;
+  margin-bottom: 0;
+  margin-top: 12px
+}
+
+.response {
+  font-family: "Times New Roman";
+  font-size: 12pt;
+  font-weight: 600;
+  text-decoration: underline;
+}
+
+.Tsingle {
+  font-family: "Times New Roman";
+  font-size: 16pt;
+  text-decoration: none;
+  font-weight: 400;
+  color: rgb(0, 0, 0);
+  margin-bottom: 8px;
+}
+
+.Tdouble {
+  font-family: "Times New Roman";
+  font-size: 16pt;
+  text-decoration: none;
+  font-weight: 400;
+  color: rgb(0, 0, 0);
+  margin-bottom: 24px;
+}
+
+.cardShadow{
+  box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+  height: "35rem";
+  background-color: rgb(221, 215, 210); 
+}
+
+.list-group {
+  --bs-list-group-color: #000000;
+  --bs-list-group-bg: rgb(221, 215, 210); 
+  --bs-list-group-border-color: rgba(0, 0, 0, 0.125);
+}

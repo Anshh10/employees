@@ -1,0 +1,294 @@
+.btn {
+  padding: 8px 20px;
+  border-radius: 2px;
+  outline: none;
+  border: none;
+}
+
+.btnSecondary {
+  margin-top: 0.5em;
+  background-color: #fff;
+  position: relative;
+  display: inline-block;
+  padding: 8px 20px;
+  color: rgb(170, 0, 0);
+  border: 1px solid rgb(170, 0, 0);
+  text-transform: uppercase;
+  letter-spacing: 4px;
+  text-decoration: none;
+  font-family: "Montserrat", sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+  overflow: hidden;
+}
+
+.btnSecondary:hover {
+  background-color: rgb(170, 0, 0);
+  color: #fff ;
+  transition: 700ms;
+}
+
+
+.btnSecondaryLarge {
+  margin-top: 0.5em;
+  background-color: #fff;
+  position: relative;
+  display: inline-block;
+  padding: 8px 20px;
+  color: rgb(170, 0, 0);
+  border: 1px solid rgb(170, 0, 0);
+  text-transform: uppercase;
+  letter-spacing: 4px;
+  text-decoration: none;
+  font-family: "Montserrat", sans-serif;
+  font-size: 20px;
+  font-weight: 600;
+  height: 50px;
+  overflow: hidden;
+}
+
+.btnSecondaryLarge:hover {
+  background-color: rgb(170, 0, 0);
+  color: #fff ;
+  transition: 700ms;
+}
+
+.btn-outline {
+  margin-top: 0.5em;
+  background-color: #fff;
+  position: relative;
+  display: inline-block;
+  padding: 8px 20px;
+  color: rgb(170, 0, 0);
+  border: 1px solid rgb(170, 0, 0);
+  text-transform: uppercase;
+  letter-spacing: 4px;
+  text-decoration: none;
+  font-family: "Montserrat", sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+  overflow: hidden;
+}
+
+.btn-outline:hover{
+  background: rgb(170, 0, 0);
+  /* box-shadow: 0 0 10px rgb(170, 0, 0), 0 0 40px rgb(170, 0, 0), 0 0 80px rgb(170, 0, 0); */
+  transition-delay: 1s;
+  color: #fff;
+}
+
+.btn-outline:focus {
+  background: rgb(170, 0, 0);
+  color: #fff;
+  box-shadow: none;
+  border: 1px solid #fff;
+}
+
+
+.btn-outline span {
+  position: absolute;
+  display: block;
+}
+
+.btn-outline span:nth-child(1) {
+  top: 0;
+  left: -100%;
+  width: 100%;
+  height: 2px;
+  background: linear-gradient(90deg, transparent, rgb(170, 0, 0));
+}
+
+.btn-outline:hover span:nth-child(1) {
+  left: 100%;
+  transition: 0.5s;
+}
+
+.btn-outline span:nth-child(3) {
+  bottom: 0;
+  right: -100%;
+  width: 100%;
+  height: 2px;
+  background: linear-gradient(270deg, transparent, rgb(170, 0, 0));
+}
+
+.btn-outline:hover span:nth-child(3) {
+  right: 100%;
+  transition: 0.5s;
+  transition-delay: 0.5s;
+}
+
+.btn-outline span:nth-child(2) {
+  top: -100%;
+  right: 0;
+  width: 2px;
+  height: 100%;
+  background: linear-gradient(180deg, transparent, rgb(170, 0, 0));
+}
+
+.btn-outline:hover span:nth-child(2) {
+  top: 100%;
+  transition: 0.5s;
+  transition-delay: 0.25s;
+}
+
+.btn-outline span:nth-child(4) {
+  bottom: -100%;
+  left: 0;
+  width: 2px;
+  height: 100%;
+  background: linear-gradient(360deg, transparent, rgb(170, 0, 0));
+}
+
+.btn-outline:hover span:nth-child(4) {
+  bottom: 100%;
+  transition: 0.5s;
+  transition-delay: 0.75s;
+}
+
+.boldText{
+  font-weight: 800;
+}
+
+
+.Hsingle-enter {
+  font-family: "Arial";
+  font-size: 14px;
+  margin-bottom: 0;
+  font-weight: 800;
+}
+
+.Hsingle-enter2 {
+  font-family: "Arial";
+  font-size: 12px;
+  margin-bottom: 0;
+  font-weight: 800;
+}
+
+
+
+.Tsingle-enter {
+  font-family: "Arial";
+  font-size: 12px;
+  margin-bottom: 0;
+}
+
+.Tdouble-enter {
+  font-family: "Arial";
+  margin-top: 11px;
+  font-size: 12px;
+  margin-bottom: 0;
+}
+
+.Tsign-enter {
+  font-family: "Arial";
+  margin-top: 30px;
+  font-size: 12px;
+  margin-bottom: 0;
+}
+
+
+
+.Hdouble-enter {
+  font-family: "Arial";
+  margin: 16px auto;
+  font-size: 16px;
+  color: #000;
+  font-weight: 600;
+}
+
+.H3double-enter {
+  font-family: "Arial";
+  margin: 0;
+  margin-top: 14px;
+  font-size: 14px;
+  color: #000;
+  font-weight: 600;
+}
+
+.Lsingle-enter li {
+  font-family: "Arial";
+  font-size: 12px;
+  margin-bottom: 0;
+}
+
+.Ldouble-enter li {
+  font-family: "Arial";
+  font-size: 12px;
+  margin-bottom: 0;
+  margin-top: 12px
+}
+
+.response {
+  font-family: "Arial";
+  font-size: 12px;
+  font-weight: 600;
+  text-decoration: underline;
+}
+
+.Tsingle {
+  font-family: "Arial";
+  font-size: 16px;
+  text-decoration: none;
+  font-weight: 400;
+  color: rgb(0, 0, 0);
+  margin-bottom: 8px;
+}
+
+.Tdouble {
+  font-family: "Arial";
+  font-size: 16px;
+  text-decoration: none;
+  font-weight: 400;
+  color: rgb(0, 0, 0);
+  margin-bottom: 24px;
+}
+
+.formSectionHeader{
+  width: 100%;
+  background-color: rgb(36, 36, 36);
+  color: rgb(255, 255, 255);
+  text-align: center;
+  padding: 10px 0 13px 0;
+  border-radius: 10px;
+  margin: 0 auto;
+  margin-top: 40px;
+  margin-bottom: 20px;
+}
+
+.formSectionHeader>h3{
+  text-transform: uppercase;
+  padding: 0;
+  margin: 0;
+}
+
+.formSectionSubHeader{
+  width: 100%;
+  background-color: rgb(114, 19, 19);
+  color: rgb(255, 255, 255);
+  text-align: center;
+  padding: 10px 0 13px 0;
+  border-radius: 10px;
+  margin: 0 auto;
+  margin-bottom: 20px;
+}
+
+.formSectionSubHeader>h4{
+  text-transform: uppercase;
+  padding: 0;
+  margin: 0;
+}
+
+.tableRow{
+  width: "100%"
+}
+
+
+@media screen and (max-width: 960px) {
+  .container, .container-fluid, .container-lg, .container-md, .container-sm, .container-xl, .container-xxl {
+    max-width: 90%;
+}
+
+  .btnSecondaryLarge{
+    font-size: 14px;
+  }
+}
